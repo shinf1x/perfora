@@ -1,0 +1,21 @@
+[defaults]
+strip_count = 2
+frame_direction = "top_to_bottom"
+export_format = "png"
+bit_depth = "convert_8bit"
+camera_make = "Nikon"
+camera_model = "SomeCoolNikon"
+film_stock = "Kodak Portra 400"
+author = "Person A"
+
+[presets]
+films = ["Kodak Portra 400", "Kodak Gold 200", "Ilford HP5+"]
+authors = ["Person A", "Person B", "Friend A"]
+
+[[presets.cameras]]
+make = "Nikon"
+model = "SomeCoolNikon"
+
+[[presets.cameras]]
+make = "Nikon"
+model = "OtherCoolNikon"
