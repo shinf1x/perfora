@@ -1,4 +1,4 @@
-# Perfora (Rust MVP)
+# Perfora
 
 Desktop app for splitting 35mm strip scans into individual frames.
 
